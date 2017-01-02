@@ -8,16 +8,16 @@ public class Main {
     public static void main(String[] args) {
         //selection
         Selection s = new Selection();
-        int[] t = {2,1,3,7,31,123,123,1322,1};
+        int[] t = {2,1,3,7,31,123,1322};
         s.sort(t);
         for(int i : t){
-            System.out.println("Selection:"+i);
+            //System.out.println("Selection:"+i);
         }
 
-        //binarySearch
+        //binarySearch--t sorted
         BinarySearch bs =  new BinarySearch();
         int bsRE = 0;
-        bsRE= bs.binarySearch(t,123);
+        bsRE= bs.binarySearch(t,3);
         System.out.println("bs:"+bsRE);
 
         //BF-SUBSTRING
@@ -29,11 +29,9 @@ public class Main {
         System.out.println("bf:"+idx);
 
         //KMP-SUBSTRING
-        String mainString2 = "ABCDEFGHIABCD";
-        String subString2 = "GHI";
         int idx2 = 0;
-        idx = KMP.kmp(mainString2, subString2);
-        System.out.println("kmp:"+idx);
+        idx2 = KMP.kmp(mainString, subString);
+        System.out.println("kmp:"+idx2);
 
     }
 }
