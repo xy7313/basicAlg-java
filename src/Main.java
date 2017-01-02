@@ -1,3 +1,4 @@
+import binarySearch.BinarySearch;
 import selectionSort.Selection;
 import subString.KMP;
 import  subString.BF;
@@ -12,6 +13,12 @@ public class Main {
         for(int i : t){
             System.out.println("Selection:"+i);
         }
+
+        //binarySearch
+        BinarySearch bs =  new BinarySearch();
+        int bsRE = 0;
+        bsRE= bs.binarySearch(t,123);
+        System.out.println("bs:"+bsRE);
 
         //BF-SUBSTRING
         BF bf = new BF();
