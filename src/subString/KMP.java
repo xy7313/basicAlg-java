@@ -2,6 +2,9 @@ package subString;
 
 /**
  * Created by xy on 2017/1/2.
+ * 在匹配成功那里加上返回值之后这个方法就只返回第一个sunstring的index
+ * next是一个辅助数组，存储 子串当前匹配失败字符之前的字符串（子串的子串）的前后缀相同元素长度 ，看起来很复杂
+ * 总之是利用【子串当前匹配失败字符之前的字符是匹配成功的】这一点来避免按位移动每次都重新匹配这种做法
  */
 public class KMP {
 
@@ -27,9 +30,9 @@ public class KMP {
 
     public static int kmp(String s, String t) {
         int[] next = next(t);// 调用next（String t）方法
-        int index = 0;// 成功匹配的位置
-        int sLength = s.length();// 主串长度
-        int tLength = t.length();// 子串长度
+        int index = 0;
+        int sLength = s.length();
+        int tLength = t.length();
         if (sLength < tLength) {
             System.out
                     .println("Error.The main string is greater than the sub string length.");
@@ -46,12 +49,13 @@ public class KMP {
                 j++;
             } else {
 				/*
-				 * 如果j != -1，且当前字符匹配失败， 则令 i 不变，j = next[j], next[j]即为j所对应的next值
+				 * 如果j != -1，且当前字符匹配失败， 则令 i 不变，j = next[j], next[j]即为j所对应的next值,\
+				 * 比如next[j]=2,说明新的匹配从t[2]开始，前面的是匹配的
 				 */
                 j = next[j];
             }
         }
-        if (j >= tLength) {// 匹配成功
+        if (j >= tLength) {
             index = i - j;
             System.out.println("Successful match,index is:" + index);
             return index;
