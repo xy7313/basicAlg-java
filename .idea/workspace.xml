@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191ec8ec-6780-414f-9820-854f43a7bfae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/IoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/urlIO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/basicAlg-java/io/IoTest.class" afterPath="$PROJECT_DIR$/out/production/basicAlg-java/io/IoTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/subString/BF.java" afterPath="$PROJECT_DIR$/src/subString/BF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/subString/KMP.java" afterPath="$PROJECT_DIR$/src/subString/KMP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/IoTest.java" afterPath="$PROJECT_DIR$/src/io/IoTest.java" />
     </list>
     <ignored path="basicAlg-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlIO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/urlIO.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/subString/KMP.java" />
         <option value="$PROJECT_DIR$/src/subString/BF.java" />
         <option value="$PROJECT_DIR$/src/io/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/io/urlIO.java" />
       </list>
     </option>
   </component>
@@ -262,7 +275,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IoTest">
+  <component name="RunManager" selected="Application.urlIO">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -286,6 +299,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="io.IoTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="basicAlg-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="urlIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="io.urlIO" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -712,14 +745,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.IoTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.urlIO" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.IoTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.urlIO" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IoTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -734,12 +769,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483358401427</updated>
       <workItem from="1483358412382" duration="4016000" />
-      <workItem from="1483458455597" duration="306000" />
+      <workItem from="1483458455597" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4322000" />
+    <option name="totallyTimeSpent" value="5194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -747,7 +782,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -872,8 +907,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/urlIO.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
