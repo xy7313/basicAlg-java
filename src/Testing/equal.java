@@ -10,6 +10,7 @@ package Testing;
 
 
 public class equal {
+    /*
     public boolean equals(Object other) {
         // Reject non-SLists.
         if (!(other instanceof SList)) {
@@ -32,4 +33,5 @@ public class equal {
 
         return true;
     }
+    */
 }
