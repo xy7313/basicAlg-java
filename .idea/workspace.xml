@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="191ec8ec-6780-414f-9820-854f43a7bfae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/queue/PriorityQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tree/binarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/pascaltest.java" afterPath="$PROJECT_DIR$/src/testCodeSearched/pascaltest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/sortMapTest.java" afterPath="$PROJECT_DIR$/src/testCodeSearched/sortMapTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/TreeTraversals.java" afterPath="$PROJECT_DIR$/src/tree/TreeTraversals.java" />
-    </list>
+    <list default="true" id="191ec8ec-6780-414f-9820-854f43a7bfae" name="Default" comment="" />
     <ignored path="basicAlg-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
